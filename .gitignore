@@ -1,6 +1,28 @@
+# Python virtual environments
 .venv/
+.venv-1/
+venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Flask instance data
 instance/
+
+# Databases
 *.db
+*.sqlite
+*.sqlite3
+
+# Environment variables / secrets
 .env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f7f3">
-  <title>{% block title %}Little Shop{% endblock %} | Little Shop</title>
+  <title>{% block title %} Bhanu's Store {% endblock %} | Bhanu's Store</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
   <nav class="navbar navbar-expand-lg shop-nav sticky-top">
     <div class="container">
-      <a class="navbar-brand brand" href="{{ url_for('home') }}"><span class="brand-mark">l.</span> little shop</a>
+      <a class="navbar-brand brand" href="{{ url_for('home') }}"><span class="brand-mark">B.</span> Bhanu's Store</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -66,9 +66,9 @@
 
   <footer class="site-footer">
     <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
-      <a class="brand footer-brand" href="{{ url_for('home') }}"><span class="brand-mark">l.</span> little shop</a>
+      <a class="brand footer-brand" href="{{ url_for('home') }}"><span class="brand-mark">B.</span> Bhanu's Store</a>
       <p class="mb-0">Good things for everyday living.</p>
-      <span>© {{ now_year|default(2026) }} Little Shop</span>
+      <span>© {{ now_year|default(2026) }} Bhanu's Store</span>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
